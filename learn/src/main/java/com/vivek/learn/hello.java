@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class hello {
     @RequestMapping
     public String helloFunction(){
-        return "Hello world it is working";
+        return "Hello world success";
     }
 }
 
