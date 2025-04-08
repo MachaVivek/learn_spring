@@ -14,5 +14,12 @@ Dependency injection:
     This can be done by using different ways like @Autowired, or constructor injection or setter injection
     example: chief [class]  wants ingredients [dependencies], so he take the help of helper[spring]. this is called dependency injection
 
+here bean generally refers to the object of the class
+@Autowired → Automatically injects a dependency by type into a Spring-managed component.
+@Qualifier → Specifies the exact bean to inject when multiple beans of the same type exist.
+@Primary → Marks a bean as the default choice when multiple beans of the same type are available.
+@Component → Tells Spring to treat the class as a bean and manage its lifecycle automatically.
+
+
 
 
